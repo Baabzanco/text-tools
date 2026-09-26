@@ -1,0 +1,2477 @@
+{
+  "users": [
+    {
+      "id": "user-super-admin-01",
+      "email": "admin@texttools.app",
+      "passwordHash": "$2b$10$MJNlOWdcVnUqB/dzPaefNuqpcpZdZTEh9RcOGlJHkBW.3HuvaE2AC",
+      "name": "Lead Site Administrator",
+      "role": "SUPER_ADMIN",
+      "isActive": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page-id-home",
+      "slug": "home",
+      "title": "Free Online Text Tools & Developer Utilities",
+      "status": "PUBLISHED",
+      "publishedVersionId": "version-id-home-v1",
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z",
+      "publishedAt": "2026-09-26T09:36:49.906Z",
+      "createdBy": "Lead Site Administrator",
+      "updatedBy": "Lead Site Administrator"
+    },
+    {
+      "id": "page-id-text-tools",
+      "slug": "text-tools",
+      "title": "Text Essentials Directory",
+      "status": "PUBLISHED",
+      "publishedVersionId": "version-id-text-tools-v1",
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z",
+      "publishedAt": "2026-09-26T09:36:49.906Z",
+      "createdBy": "Lead Site Administrator",
+      "updatedBy": "Lead Site Administrator"
+    },
+    {
+      "id": "page-id-developer-tools",
+      "slug": "developer-tools",
+      "title": "Developer Utilities Directory",
+      "status": "PUBLISHED",
+      "publishedVersionId": "version-id-developer-tools-v1",
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z",
+      "publishedAt": "2026-09-26T09:36:49.906Z",
+      "createdBy": "Lead Site Administrator",
+      "updatedBy": "Lead Site Administrator"
+    },
+    {
+      "id": "page-id-seo-tools",
+      "slug": "seo-tools",
+      "title": "SEO & Content Tools Directory",
+      "status": "PUBLISHED",
+      "publishedVersionId": "version-id-seo-tools-v1",
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z",
+      "publishedAt": "2026-09-26T09:36:49.906Z",
+      "createdBy": "Lead Site Administrator",
+      "updatedBy": "Lead Site Administrator"
+    },
+    {
+      "id": "page-id-about",
+      "slug": "about",
+      "title": "About Text Tools",
+      "status": "PUBLISHED",
+      "publishedVersionId": "version-id-about-v1",
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z",
+      "publishedAt": "2026-09-26T09:36:49.906Z",
+      "createdBy": "Lead Site Administrator",
+      "updatedBy": "Lead Site Administrator"
+    },
+    {
+      "id": "page-id-privacy",
+      "slug": "privacy",
+      "title": "Privacy Policy",
+      "status": "PUBLISHED",
+      "publishedVersionId": "version-id-privacy-v1",
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z",
+      "publishedAt": "2026-09-26T09:36:49.906Z",
+      "createdBy": "Lead Site Administrator",
+      "updatedBy": "Lead Site Administrator"
+    },
+    {
+      "id": "page-id-terms",
+      "slug": "terms",
+      "title": "Terms of Service",
+      "status": "PUBLISHED",
+      "publishedVersionId": "version-id-terms-v1",
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z",
+      "publishedAt": "2026-09-26T09:36:49.906Z",
+      "createdBy": "Lead Site Administrator",
+      "updatedBy": "Lead Site Administrator"
+    },
+    {
+      "id": "page-1790415410140",
+      "slug": "e2e-test-page",
+      "title": "Updated Draft v2 Title",
+      "status": "PUBLISHED",
+      "publishedVersionId": "ver-1790415410168-2",
+      "createdAt": "2026-09-26T09:36:50.140Z",
+      "updatedAt": "2026-09-26T09:36:50.201Z",
+      "publishedAt": "2026-09-26T09:36:50.181Z",
+      "createdBy": "Lead Site Administrator",
+      "updatedBy": "Lead Site Administrator"
+    },
+    {
+      "id": "page-1790415464464",
+      "slug": "e2e-test-page-1790415464457",
+      "title": "Updated Draft v2 Title",
+      "status": "PUBLISHED",
+      "publishedVersionId": "ver-1790415464493-2",
+      "createdAt": "2026-09-26T09:37:44.464Z",
+      "updatedAt": "2026-09-26T09:37:44.527Z",
+      "publishedAt": "2026-09-26T09:37:44.506Z",
+      "createdBy": "Lead Site Administrator",
+      "updatedBy": "Lead Site Administrator"
+    }
+  ],
+  "pageVersions": [
+    {
+      "id": "version-id-home-v1",
+      "pageId": "page-id-home",
+      "versionNumber": 1,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-hero-home",
+            "type": "hero",
+            "data": {
+              "eyebrow": "100% Client-Side Privacy Guaranteed",
+              "title": "Privacy-First Online Text Utilities",
+              "description": "50 fast, browser-executed text tools for developers, writers, and SEO professionals. No remote server processing, no data logging."
+            }
+          },
+          {
+            "id": "sec-tools-grid-home",
+            "type": "toolGrid",
+            "data": {
+              "title": "Featured Utilities Catalog",
+              "description": "Instant client-side processing for text formatting, developer utilities, and content analysis.",
+              "category": "all"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "Free Online Text Tools & Developer Utilities",
+        "metaDescription": "Fast, private, 100% client-side text tools for writers, editors, engineers, and digital marketers.",
+        "canonicalUrl": "https://texttools.app/",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Free Online Text Tools & Developer Utilities",
+        "ogDescription": "Fast, private, 100% client-side text tools for writers, editors, engineers, and digital marketers.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Free Online Text Tools & Developer Utilities",
+        "twitterDescription": "Fast, private, 100% client-side text tools for writers, editors, engineers, and digital marketers.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "changeSummary": "Initial published version seeded from system defaults.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "version-id-text-tools-v1",
+      "pageId": "page-id-text-tools",
+      "versionNumber": 1,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-hero-text",
+            "type": "hero",
+            "data": {
+              "eyebrow": "Writing & Editing Tools",
+              "title": "Text Essentials Directory",
+              "description": "Count words, format cases, sort lines, clean spacing, and inspect text statistics instantly."
+            }
+          },
+          {
+            "id": "sec-grid-text",
+            "type": "toolGrid",
+            "data": {
+              "title": "Writing & Manipulation Tools",
+              "description": "All client-side writing utilities.",
+              "category": "text"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "Text Essentials Directory",
+        "metaDescription": "Browse text manipulation tools: word counters, case converters, line sorters, and text cleaners.",
+        "canonicalUrl": "https://texttools.app/text-tools",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Text Essentials Directory",
+        "ogDescription": "Browse text manipulation tools: word counters, case converters, line sorters, and text cleaners.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Text Essentials Directory",
+        "twitterDescription": "Browse text manipulation tools: word counters, case converters, line sorters, and text cleaners.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "changeSummary": "Initial published version seeded from system defaults.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "version-id-developer-tools-v1",
+      "pageId": "page-id-developer-tools",
+      "versionNumber": 1,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-hero-dev",
+            "type": "hero",
+            "data": {
+              "eyebrow": "Engineering Utilities",
+              "title": "Developer Utilities Directory",
+              "description": "Format JSON, decode JWTs, test regex, encode Base64, and calculate hashes locally in your browser."
+            }
+          },
+          {
+            "id": "sec-grid-dev",
+            "type": "toolGrid",
+            "data": {
+              "title": "Developer Utilities",
+              "description": "Client-side code formatters and converters.",
+              "category": "developer"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "Developer Utilities Directory",
+        "metaDescription": "Browse developer tools: JSON formatters, Base64 converters, JWT decoders, and Regex testers.",
+        "canonicalUrl": "https://texttools.app/developer-tools",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Developer Utilities Directory",
+        "ogDescription": "Browse developer tools: JSON formatters, Base64 converters, JWT decoders, and Regex testers.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Developer Utilities Directory",
+        "twitterDescription": "Browse developer tools: JSON formatters, Base64 converters, JWT decoders, and Regex testers.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "changeSummary": "Initial published version seeded from system defaults.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "version-id-seo-tools-v1",
+      "pageId": "page-id-seo-tools",
+      "versionNumber": 1,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-hero-seo",
+            "type": "hero",
+            "data": {
+              "eyebrow": "Search & Content Analysis",
+              "title": "SEO & Content Tools Directory",
+              "description": "Count target keywords, analyze word density, evaluate readability, and preview search snippet guidelines."
+            }
+          },
+          {
+            "id": "sec-grid-seo",
+            "type": "toolGrid",
+            "data": {
+              "title": "SEO Utilities",
+              "description": "Client-side content analysis tools.",
+              "category": "seo"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "SEO & Content Tools Directory",
+        "metaDescription": "Browse SEO tools: keyword counters, density checkers, readability calculators, and SERP checkers.",
+        "canonicalUrl": "https://texttools.app/seo-tools",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "SEO & Content Tools Directory",
+        "ogDescription": "Browse SEO tools: keyword counters, density checkers, readability calculators, and SERP checkers.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "SEO & Content Tools Directory",
+        "twitterDescription": "Browse SEO tools: keyword counters, density checkers, readability calculators, and SERP checkers.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "changeSummary": "Initial published version seeded from system defaults.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "version-id-about-v1",
+      "pageId": "page-id-about",
+      "versionNumber": 1,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-hero-about",
+            "type": "hero",
+            "data": {
+              "eyebrow": "Mission & Technology",
+              "title": "About Text Tools",
+              "description": "Text Tools is built to provide fast, reliable, privacy-first web utilities that process data exclusively in your browser."
+            }
+          },
+          {
+            "id": "sec-rich-about",
+            "type": "richText",
+            "data": {
+              "heading": "Zero Server Transmission Philosophy",
+              "content": "Unlike traditional web converters that send your confidential code, API keys, or text to remote servers, Text Tools executes 100% of processing in client-side Web Workers and JavaScript."
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "About Text Tools",
+        "metaDescription": "Learn about Text Tools, our client-side privacy architecture, and utility mission.",
+        "canonicalUrl": "https://texttools.app/about",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "About Text Tools",
+        "ogDescription": "Learn about Text Tools, our client-side privacy architecture, and utility mission.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "About Text Tools",
+        "twitterDescription": "Learn about Text Tools, our client-side privacy architecture, and utility mission.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "changeSummary": "Initial published version seeded from system defaults.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "version-id-privacy-v1",
+      "pageId": "page-id-privacy",
+      "versionNumber": 1,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-hero-privacy",
+            "type": "hero",
+            "data": {
+              "eyebrow": "Zero Data Collection",
+              "title": "Privacy Policy",
+              "description": "Your privacy is guaranteed by technology: your text never leaves your device."
+            }
+          },
+          {
+            "id": "sec-rich-privacy",
+            "type": "richText",
+            "data": {
+              "heading": "How Client-Side Processing Protects You",
+              "content": "When you paste text, JSON, or code into any utility on this site, processing occurs strictly in your device memory. We do not operate remote databases or tracking scripts for text payloads."
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "Privacy Policy",
+        "metaDescription": "Text Tools privacy policy: 100% local browser text processing, zero data collection.",
+        "canonicalUrl": "https://texttools.app/privacy",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Privacy Policy",
+        "ogDescription": "Text Tools privacy policy: 100% local browser text processing, zero data collection.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Privacy Policy",
+        "twitterDescription": "Text Tools privacy policy: 100% local browser text processing, zero data collection.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "changeSummary": "Initial published version seeded from system defaults.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "version-id-terms-v1",
+      "pageId": "page-id-terms",
+      "versionNumber": 1,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-hero-terms",
+            "type": "hero",
+            "data": {
+              "eyebrow": "Usage Conditions",
+              "title": "Terms of Service",
+              "description": "Text Tools provides free online text utilities as-is for personal and commercial use."
+            }
+          },
+          {
+            "id": "sec-rich-terms",
+            "type": "richText",
+            "data": {
+              "heading": "Acceptable Use & License",
+              "content": "All tools are provided free of charge for developers, content creators, and businesses."
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "Terms of Service",
+        "metaDescription": "Terms of service for using Text Tools online browser utilities.",
+        "canonicalUrl": "https://texttools.app/terms",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Terms of Service",
+        "ogDescription": "Terms of service for using Text Tools online browser utilities.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Terms of Service",
+        "twitterDescription": "Terms of service for using Text Tools online browser utilities.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "changeSummary": "Initial published version seeded from system defaults.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "ver-1790415410140-1",
+      "pageId": "page-1790415410140",
+      "versionNumber": 1,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-1",
+            "type": "hero",
+            "data": {
+              "eyebrow": "E2E Test",
+              "title": "Original v1 Title",
+              "description": "Original v1 content"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "End-to-End Test Page",
+        "metaDescription": "",
+        "canonicalUrl": "https://texttools.app/e2e-test-page",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "End-to-End Test Page",
+        "ogDescription": "",
+        "ogImage": "",
+        "twitterTitle": "End-to-End Test Page",
+        "twitterDescription": "",
+        "twitterImage": "",
+        "schemaJson": ""
+      },
+      "changeSummary": "Initial page draft created.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:50.140Z"
+    },
+    {
+      "id": "ver-1790415410168-2",
+      "pageId": "page-1790415410140",
+      "versionNumber": 2,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-1",
+            "type": "hero",
+            "data": {
+              "eyebrow": "E2E Test",
+              "title": "Updated v2 Title",
+              "description": "Updated v2 content"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "Updated Draft v2 Title",
+        "metaDescription": "",
+        "canonicalUrl": "https://texttools.app/e2e-test-page",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Updated Draft v2 Title",
+        "ogDescription": "",
+        "ogImage": "",
+        "twitterTitle": "Updated Draft v2 Title",
+        "twitterDescription": "",
+        "twitterImage": "",
+        "schemaJson": ""
+      },
+      "changeSummary": "Updated title to v2",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:50.168Z"
+    },
+    {
+      "id": "ver-1790415410201-3",
+      "pageId": "page-1790415410140",
+      "versionNumber": 3,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-1",
+            "type": "hero",
+            "data": {
+              "eyebrow": "E2E Test",
+              "title": "Original v1 Title",
+              "description": "Original v1 content"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "End-to-End Test Page",
+        "metaDescription": "",
+        "canonicalUrl": "https://texttools.app/e2e-test-page",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "End-to-End Test Page",
+        "ogDescription": "",
+        "ogImage": "",
+        "twitterTitle": "End-to-End Test Page",
+        "twitterDescription": "",
+        "twitterImage": "",
+        "schemaJson": ""
+      },
+      "changeSummary": "Restored content from Revision v1.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:36:50.201Z"
+    },
+    {
+      "id": "ver-1790415464464-1",
+      "pageId": "page-1790415464464",
+      "versionNumber": 1,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-1",
+            "type": "hero",
+            "data": {
+              "eyebrow": "E2E Test",
+              "title": "Original v1 Title",
+              "description": "Original v1 content"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "End-to-End Test Page",
+        "metaDescription": "",
+        "canonicalUrl": "https://texttools.app/e2e-test-page-1790415464457",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "End-to-End Test Page",
+        "ogDescription": "",
+        "ogImage": "",
+        "twitterTitle": "End-to-End Test Page",
+        "twitterDescription": "",
+        "twitterImage": "",
+        "schemaJson": ""
+      },
+      "changeSummary": "Initial page draft created.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:37:44.464Z"
+    },
+    {
+      "id": "ver-1790415464493-2",
+      "pageId": "page-1790415464464",
+      "versionNumber": 2,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-1",
+            "type": "hero",
+            "data": {
+              "eyebrow": "E2E Test",
+              "title": "Updated v2 Title",
+              "description": "Updated v2 content"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "Updated Draft v2 Title",
+        "metaDescription": "",
+        "canonicalUrl": "https://texttools.app/e2e-test-page-1790415464457",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Updated Draft v2 Title",
+        "ogDescription": "",
+        "ogImage": "",
+        "twitterTitle": "Updated Draft v2 Title",
+        "twitterDescription": "",
+        "twitterImage": "",
+        "schemaJson": ""
+      },
+      "changeSummary": "Updated title to v2",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:37:44.493Z"
+    },
+    {
+      "id": "ver-1790415464527-3",
+      "pageId": "page-1790415464464",
+      "versionNumber": 3,
+      "content": {
+        "sections": [
+          {
+            "id": "sec-1",
+            "type": "hero",
+            "data": {
+              "eyebrow": "E2E Test",
+              "title": "Original v1 Title",
+              "description": "Original v1 content"
+            }
+          }
+        ]
+      },
+      "seoMetadata": {
+        "seoTitle": "End-to-End Test Page",
+        "metaDescription": "",
+        "canonicalUrl": "https://texttools.app/e2e-test-page-1790415464457",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "End-to-End Test Page",
+        "ogDescription": "",
+        "ogImage": "",
+        "twitterTitle": "End-to-End Test Page",
+        "twitterDescription": "",
+        "twitterImage": "",
+        "schemaJson": ""
+      },
+      "changeSummary": "Restored content from Revision v1.",
+      "createdBy": "Lead Site Administrator",
+      "createdAt": "2026-09-26T09:37:44.527Z"
+    }
+  ],
+  "tools": [
+    {
+      "id": "tool-content-json-formatter",
+      "slug": "json-formatter",
+      "toolName": "JSON Formatter",
+      "shortDescription": "Prettify, format, and validate raw JSON with customizable indentation.",
+      "longDescription": "Prettify and format unformatted or minified JSON strings. Supports 2-space, 4-space, or tab indentation, identifies syntax errors, and calculates key statistics locally in your browser.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [
+        {
+          "question": "Is my JSON uploaded to a server?",
+          "answer": "No. JSON parsing and formatting execute 100% locally in your browser DOM. Your data remains strictly private."
+        }
+      ],
+      "relatedTools": [
+        "json-validator",
+        "json-minifier",
+        "jwt-decoder"
+      ],
+      "seoMetadata": {
+        "seoTitle": "JSON Formatter – Prettify & Format JSON Online",
+        "metaDescription": "Format, validate, and prettify JSON strings online with customizable 2-space, 4-space, or tab indentation.",
+        "canonicalUrl": "https://texttools.app/tools/json-formatter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "JSON Formatter – Prettify & Format JSON Online",
+        "ogDescription": "Format, validate, and prettify JSON strings online with customizable 2-space, 4-space, or tab indentation.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "JSON Formatter – Prettify & Format JSON Online",
+        "twitterDescription": "Format, validate, and prettify JSON strings online with customizable 2-space, 4-space, or tab indentation.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use JSON Formatter online for fast, private text processing directly in your browser.",
+      "educationalContent": "JSON Formatter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-json-validator",
+      "slug": "json-validator",
+      "toolName": "JSON Validator",
+      "shortDescription": "Validate JSON syntax, detect parsing errors, and inspect key metrics.",
+      "longDescription": "Validate JSON payloads against standard JSON specification. Locates syntax errors, displays root data types, total key counts, and maximum array nesting depth.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "json-formatter",
+        "json-minifier",
+        "jwt-decoder"
+      ],
+      "seoMetadata": {
+        "seoTitle": "JSON Validator – Check JSON Syntax & Locate Parsing Errors",
+        "metaDescription": "Validate JSON syntax online. Identify syntax errors, inspect nesting depth, and count keys locally in your browser.",
+        "canonicalUrl": "https://texttools.app/tools/json-validator",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "JSON Validator – Check JSON Syntax & Locate Parsing Errors",
+        "ogDescription": "Validate JSON syntax online. Identify syntax errors, inspect nesting depth, and count keys locally in your browser.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "JSON Validator – Check JSON Syntax & Locate Parsing Errors",
+        "twitterDescription": "Validate JSON syntax online. Identify syntax errors, inspect nesting depth, and count keys locally in your browser.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use JSON Validator online for fast, private text processing directly in your browser.",
+      "educationalContent": "JSON Validator processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-json-minifier",
+      "slug": "json-minifier",
+      "toolName": "JSON Minifier",
+      "shortDescription": "Minify and compact JSON by stripping unnecessary whitespace.",
+      "longDescription": "Compress and minify JSON files by removing extra spaces, tabs, and newlines. Reduces payload size for production APIs and config files.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "json-formatter",
+        "json-validator",
+        "base64-encoder"
+      ],
+      "seoMetadata": {
+        "seoTitle": "JSON Minifier – Compress & Compact JSON Online",
+        "metaDescription": "Minify JSON payloads online safely without altering valid data semantics.",
+        "canonicalUrl": "https://texttools.app/tools/json-minifier",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "JSON Minifier – Compress & Compact JSON Online",
+        "ogDescription": "Minify JSON payloads online safely without altering valid data semantics.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "JSON Minifier – Compress & Compact JSON Online",
+        "twitterDescription": "Minify JSON payloads online safely without altering valid data semantics.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use JSON Minifier online for fast, private text processing directly in your browser.",
+      "educationalContent": "JSON Minifier processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-base64-encoder",
+      "slug": "base64-encoder",
+      "toolName": "Base64 Encoder",
+      "shortDescription": "Convert plain text, Unicode, and emojis into Base64 encoded strings.",
+      "longDescription": "Encode text strings into Base64 format. Full support for Unicode, Persian, Arabic, and emoji surrogate pairs using client-side UTF-8 encoding.",
+      "iconIdentifier": "Binary",
+      "categoryLabel": "encoding",
+      "faq": [],
+      "relatedTools": [
+        "base64-decoder",
+        "url-encoder",
+        "unicode-converter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Base64 Encoder – Convert UTF-8 Text to Base64 Online",
+        "metaDescription": "Encode text strings and Unicode to Base64 format safely in your browser.",
+        "canonicalUrl": "https://texttools.app/tools/base64-encoder",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Base64 Encoder – Convert UTF-8 Text to Base64 Online",
+        "ogDescription": "Encode text strings and Unicode to Base64 format safely in your browser.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Base64 Encoder – Convert UTF-8 Text to Base64 Online",
+        "twitterDescription": "Encode text strings and Unicode to Base64 format safely in your browser.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Base64 Encoder online for fast, private text processing directly in your browser.",
+      "educationalContent": "Base64 Encoder processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-base64-decoder",
+      "slug": "base64-decoder",
+      "toolName": "Base64 Decoder",
+      "shortDescription": "Decode Base64 strings back into plain UTF-8 text.",
+      "longDescription": "Decode Base64 encoded data back into plain text. Safely decodes UTF-8 strings, Unicode, and emojis with clear error detection for malformed payloads.",
+      "iconIdentifier": "Binary",
+      "categoryLabel": "encoding",
+      "faq": [],
+      "relatedTools": [
+        "base64-encoder",
+        "url-decoder",
+        "jwt-decoder"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Base64 Decoder – Decode Base64 Strings to Text Online",
+        "metaDescription": "Decode Base64 data back to plain text online with full Unicode and emoji support.",
+        "canonicalUrl": "https://texttools.app/tools/base64-decoder",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Base64 Decoder – Decode Base64 Strings to Text Online",
+        "ogDescription": "Decode Base64 data back to plain text online with full Unicode and emoji support.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Base64 Decoder – Decode Base64 Strings to Text Online",
+        "twitterDescription": "Decode Base64 data back to plain text online with full Unicode and emoji support.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Base64 Decoder online for fast, private text processing directly in your browser.",
+      "educationalContent": "Base64 Decoder processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-url-encoder",
+      "slug": "url-encoder",
+      "toolName": "URL Encoder",
+      "shortDescription": "Convert query parameters and special characters into percent-encoded URLs.",
+      "longDescription": "Encode special characters, spaces, non-ASCII symbols, and query parameters into percent-encoded URL component format for web requests.",
+      "iconIdentifier": "Binary",
+      "categoryLabel": "encoding",
+      "faq": [],
+      "relatedTools": [
+        "url-decoder",
+        "base64-encoder",
+        "html-encoder"
+      ],
+      "seoMetadata": {
+        "seoTitle": "URL Encoder – Percent-Encode Query Parameters & URLs",
+        "metaDescription": "Convert special characters and query strings into valid percent-encoded URL format.",
+        "canonicalUrl": "https://texttools.app/tools/url-encoder",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "URL Encoder – Percent-Encode Query Parameters & URLs",
+        "ogDescription": "Convert special characters and query strings into valid percent-encoded URL format.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "URL Encoder – Percent-Encode Query Parameters & URLs",
+        "twitterDescription": "Convert special characters and query strings into valid percent-encoded URL format.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use URL Encoder online for fast, private text processing directly in your browser.",
+      "educationalContent": "URL Encoder processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-url-decoder",
+      "slug": "url-decoder",
+      "toolName": "URL Decoder",
+      "shortDescription": "Decode percent-encoded URL parameters back into readable text.",
+      "longDescription": "Decode percent-encoded URI parameters back into readable UTF-8 text. Handles malformed percent sequences gracefully without breaking.",
+      "iconIdentifier": "Binary",
+      "categoryLabel": "encoding",
+      "faq": [],
+      "relatedTools": [
+        "url-encoder",
+        "base64-decoder",
+        "html-decoder"
+      ],
+      "seoMetadata": {
+        "seoTitle": "URL Decoder – Decode Percent-Encoded URI Strings",
+        "metaDescription": "Decode percent-encoded URL parameters back into readable plain text online.",
+        "canonicalUrl": "https://texttools.app/tools/url-decoder",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "URL Decoder – Decode Percent-Encoded URI Strings",
+        "ogDescription": "Decode percent-encoded URL parameters back into readable plain text online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "URL Decoder – Decode Percent-Encoded URI Strings",
+        "twitterDescription": "Decode percent-encoded URL parameters back into readable plain text online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use URL Decoder online for fast, private text processing directly in your browser.",
+      "educationalContent": "URL Decoder processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-html-encoder",
+      "slug": "html-encoder",
+      "toolName": "HTML Encoder",
+      "shortDescription": "Escape special HTML characters into safe HTML entities (&lt;, &gt;, &amp;).",
+      "longDescription": "Convert reserved HTML characters (&, <, >, \", ') into safe HTML entity escape sequences to prevent unwanted browser rendering and XSS vulnerabilities.",
+      "iconIdentifier": "Binary",
+      "categoryLabel": "encoding",
+      "faq": [],
+      "relatedTools": [
+        "html-decoder",
+        "url-encoder",
+        "escape-unescape"
+      ],
+      "seoMetadata": {
+        "seoTitle": "HTML Encoder – Convert Special Characters to HTML Entities",
+        "metaDescription": "Escape special characters into safe HTML entity sequences (&amp;, &lt;, &gt;) online.",
+        "canonicalUrl": "https://texttools.app/tools/html-encoder",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "HTML Encoder – Convert Special Characters to HTML Entities",
+        "ogDescription": "Escape special characters into safe HTML entity sequences (&amp;, &lt;, &gt;) online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "HTML Encoder – Convert Special Characters to HTML Entities",
+        "twitterDescription": "Escape special characters into safe HTML entity sequences (&amp;, &lt;, &gt;) online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use HTML Encoder online for fast, private text processing directly in your browser.",
+      "educationalContent": "HTML Encoder processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-html-decoder",
+      "slug": "html-decoder",
+      "toolName": "HTML Decoder",
+      "shortDescription": "Decode HTML entities back into plain readable text.",
+      "longDescription": "Decode named HTML entities (&amp;, &lt;, &quot;) and numeric entities (&#65;, &#x41;) back into plain text safely without executing code.",
+      "iconIdentifier": "Binary",
+      "categoryLabel": "encoding",
+      "faq": [],
+      "relatedTools": [
+        "html-encoder",
+        "url-decoder",
+        "escape-unescape"
+      ],
+      "seoMetadata": {
+        "seoTitle": "HTML Decoder – Convert HTML Entities to Plain Text",
+        "metaDescription": "Decode named and numeric HTML entities back into plain text safely in your browser.",
+        "canonicalUrl": "https://texttools.app/tools/html-decoder",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "HTML Decoder – Convert HTML Entities to Plain Text",
+        "ogDescription": "Decode named and numeric HTML entities back into plain text safely in your browser.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "HTML Decoder – Convert HTML Entities to Plain Text",
+        "twitterDescription": "Decode named and numeric HTML entities back into plain text safely in your browser.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use HTML Decoder online for fast, private text processing directly in your browser.",
+      "educationalContent": "HTML Decoder processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-unicode-converter",
+      "slug": "unicode-converter",
+      "toolName": "Unicode Encoder / Decoder",
+      "shortDescription": "Convert text to \\uXXXX escape sequences and decode Unicode back to text.",
+      "longDescription": "Convert non-ASCII characters and emojis into \\uXXXX Unicode escape sequences or parse Unicode escape sequences back into readable UTF-8 text.",
+      "iconIdentifier": "Binary",
+      "categoryLabel": "encoding",
+      "faq": [],
+      "relatedTools": [
+        "base64-encoder",
+        "url-encoder",
+        "html-encoder"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Unicode Encoder / Decoder – Convert Text to \\uXXXX Escape Sequences",
+        "metaDescription": "Encode text into \\uXXXX escape sequences or decode Unicode back to UTF-8 text online.",
+        "canonicalUrl": "https://texttools.app/tools/unicode-converter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Unicode Encoder / Decoder – Convert Text to \\uXXXX Escape Sequences",
+        "ogDescription": "Encode text into \\uXXXX escape sequences or decode Unicode back to UTF-8 text online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Unicode Encoder / Decoder – Convert Text to \\uXXXX Escape Sequences",
+        "twitterDescription": "Encode text into \\uXXXX escape sequences or decode Unicode back to UTF-8 text online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Unicode Encoder / Decoder online for fast, private text processing directly in your browser.",
+      "educationalContent": "Unicode Encoder / Decoder processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-html-formatter",
+      "slug": "html-formatter",
+      "toolName": "HTML Formatter",
+      "shortDescription": "Format and indent unformatted HTML markup.",
+      "longDescription": "Beautify and format messy or minified HTML documents. Indents element hierarchies, preserves comments, and formats tags cleanly.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "css-formatter",
+        "javascript-formatter",
+        "markdown-to-html"
+      ],
+      "seoMetadata": {
+        "seoTitle": "HTML Formatter – Beautify & Format HTML Code Online",
+        "metaDescription": "Format, indent, and prettify raw HTML code online with clean 2-space or 4-space hierarchy.",
+        "canonicalUrl": "https://texttools.app/tools/html-formatter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "HTML Formatter – Beautify & Format HTML Code Online",
+        "ogDescription": "Format, indent, and prettify raw HTML code online with clean 2-space or 4-space hierarchy.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "HTML Formatter – Beautify & Format HTML Code Online",
+        "twitterDescription": "Format, indent, and prettify raw HTML code online with clean 2-space or 4-space hierarchy.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use HTML Formatter online for fast, private text processing directly in your browser.",
+      "educationalContent": "HTML Formatter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-css-formatter",
+      "slug": "css-formatter",
+      "toolName": "CSS Formatter",
+      "shortDescription": "Format and indent CSS code blocks and media queries.",
+      "longDescription": "Beautify messy CSS stylesheets, format selectors, expand rule declarations, and preserve CSS custom properties.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "html-formatter",
+        "javascript-formatter",
+        "sql-formatter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "CSS Formatter – Beautify & Format CSS Stylesheets Online",
+        "metaDescription": "Format, indent, and beautify CSS code online. Clean stylesheet formatting in your browser.",
+        "canonicalUrl": "https://texttools.app/tools/css-formatter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "CSS Formatter – Beautify & Format CSS Stylesheets Online",
+        "ogDescription": "Format, indent, and beautify CSS code online. Clean stylesheet formatting in your browser.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "CSS Formatter – Beautify & Format CSS Stylesheets Online",
+        "twitterDescription": "Format, indent, and beautify CSS code online. Clean stylesheet formatting in your browser.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use CSS Formatter online for fast, private text processing directly in your browser.",
+      "educationalContent": "CSS Formatter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-javascript-formatter",
+      "slug": "javascript-formatter",
+      "toolName": "JavaScript Formatter",
+      "shortDescription": "Format and indent JavaScript code with syntax preservation.",
+      "longDescription": "Beautify minified or unformatted JavaScript source code. Formats blocks, functions, arrays, and objects safely without executing code.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "html-formatter",
+        "css-formatter",
+        "json-formatter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "JavaScript Formatter – Beautify & Format JS Code Online",
+        "metaDescription": "Format and indent JavaScript source code online with clean block structure.",
+        "canonicalUrl": "https://texttools.app/tools/javascript-formatter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "JavaScript Formatter – Beautify & Format JS Code Online",
+        "ogDescription": "Format and indent JavaScript source code online with clean block structure.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "JavaScript Formatter – Beautify & Format JS Code Online",
+        "twitterDescription": "Format and indent JavaScript source code online with clean block structure.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use JavaScript Formatter online for fast, private text processing directly in your browser.",
+      "educationalContent": "JavaScript Formatter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-sql-formatter",
+      "slug": "sql-formatter",
+      "toolName": "SQL Formatter",
+      "shortDescription": "Format SQL queries with capitalized keywords and structured clauses.",
+      "longDescription": "Format raw SQL statements into structured, readable queries. Capitalizes SQL keywords (SELECT, FROM, WHERE, JOIN) and indents subqueries.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "javascript-formatter",
+        "json-formatter",
+        "text-compare"
+      ],
+      "seoMetadata": {
+        "seoTitle": "SQL Formatter – Beautify & Structure SQL Queries Online",
+        "metaDescription": "Format, capitalize keywords, and structure complex SQL queries online safely in your browser.",
+        "canonicalUrl": "https://texttools.app/tools/sql-formatter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "SQL Formatter – Beautify & Structure SQL Queries Online",
+        "ogDescription": "Format, capitalize keywords, and structure complex SQL queries online safely in your browser.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "SQL Formatter – Beautify & Structure SQL Queries Online",
+        "twitterDescription": "Format, capitalize keywords, and structure complex SQL queries online safely in your browser.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use SQL Formatter online for fast, private text processing directly in your browser.",
+      "educationalContent": "SQL Formatter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-markdown-to-html",
+      "slug": "markdown-to-html",
+      "toolName": "Markdown → HTML Converter",
+      "shortDescription": "Convert Markdown text into sanitized HTML source and live preview.",
+      "longDescription": "Parse Markdown into HTML markup. Renders headings, lists, bold/italic formatting, code blocks, links, and blockquotes with DOMPurify sanitization.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "html-formatter",
+        "html-encoder",
+        "text-cleaner"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Markdown to HTML Converter – Convert & Preview Markdown Online",
+        "metaDescription": "Convert Markdown into sanitized HTML source code with instant live preview.",
+        "canonicalUrl": "https://texttools.app/tools/markdown-to-html",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Markdown to HTML Converter – Convert & Preview Markdown Online",
+        "ogDescription": "Convert Markdown into sanitized HTML source code with instant live preview.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Markdown to HTML Converter – Convert & Preview Markdown Online",
+        "twitterDescription": "Convert Markdown into sanitized HTML source code with instant live preview.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Markdown → HTML Converter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Markdown → HTML Converter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-regex-tester",
+      "slug": "regex-tester",
+      "toolName": "Regex Tester",
+      "shortDescription": "Test regular expression patterns against text with live match highlights.",
+      "longDescription": "Interactive regular expression testing utility. Supports flags (g, i, m, s), match indexes, and captured group breakdowns with safe local execution.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "find-and-replace",
+        "text-compare",
+        "escape-unescape"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Regex Tester – Test Regular Expressions & Capture Groups Online",
+        "metaDescription": "Test regular expressions in real-time. Inspect pattern matches, indexes, and capture groups locally.",
+        "canonicalUrl": "https://texttools.app/tools/regex-tester",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Regex Tester – Test Regular Expressions & Capture Groups Online",
+        "ogDescription": "Test regular expressions in real-time. Inspect pattern matches, indexes, and capture groups locally.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Regex Tester – Test Regular Expressions & Capture Groups Online",
+        "twitterDescription": "Test regular expressions in real-time. Inspect pattern matches, indexes, and capture groups locally.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Regex Tester online for fast, private text processing directly in your browser.",
+      "educationalContent": "Regex Tester processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-jwt-decoder",
+      "slug": "jwt-decoder",
+      "toolName": "JWT Decoder",
+      "shortDescription": "Decode JSON Web Token headers, payloads, and signatures locally.",
+      "longDescription": "Inspect encoded JWT tokens locally. Decodes Header JSON, Payload claim details, and signature data without sending tokens to any external server.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [
+        {
+          "question": "Does decoding a JWT verify its signature?",
+          "answer": "No. Decoding a JWT parses its claims JSON payload locally. It does not verify the secret signature or authenticate users."
+        }
+      ],
+      "relatedTools": [
+        "json-formatter",
+        "base64-decoder",
+        "timestamp-converter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "JWT Decoder – Decode JSON Web Token Claims Locally",
+        "metaDescription": "Decode JWT token headers, payloads, and claims locally in your browser with zero remote transmission.",
+        "canonicalUrl": "https://texttools.app/tools/jwt-decoder",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "JWT Decoder – Decode JSON Web Token Claims Locally",
+        "ogDescription": "Decode JWT token headers, payloads, and claims locally in your browser with zero remote transmission.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "JWT Decoder – Decode JSON Web Token Claims Locally",
+        "twitterDescription": "Decode JWT token headers, payloads, and claims locally in your browser with zero remote transmission.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use JWT Decoder online for fast, private text processing directly in your browser.",
+      "educationalContent": "JWT Decoder processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-timestamp-converter",
+      "slug": "timestamp-converter",
+      "toolName": "Unix Timestamp Converter",
+      "shortDescription": "Convert Unix timestamps (seconds/ms) to ISO, UTC, and local dates.",
+      "longDescription": "Convert Unix epoch timestamps (seconds or milliseconds) into readable ISO 8601, UTC, and local date formats, or convert date strings into Unix timestamps.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "jwt-decoder",
+        "hash-generator",
+        "text-statistics"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Unix Timestamp Converter – Epoch Seconds to UTC & Local Date",
+        "metaDescription": "Convert Unix epoch timestamps to ISO dates, UTC strings, and local timezone formats online.",
+        "canonicalUrl": "https://texttools.app/tools/timestamp-converter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Unix Timestamp Converter – Epoch Seconds to UTC & Local Date",
+        "ogDescription": "Convert Unix epoch timestamps to ISO dates, UTC strings, and local timezone formats online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Unix Timestamp Converter – Epoch Seconds to UTC & Local Date",
+        "twitterDescription": "Convert Unix epoch timestamps to ISO dates, UTC strings, and local timezone formats online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Unix Timestamp Converter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Unix Timestamp Converter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-hash-generator",
+      "slug": "hash-generator",
+      "toolName": "Hash Generator",
+      "shortDescription": "Generate SHA-256, SHA-384, and SHA-512 cryptographic hashes.",
+      "longDescription": "Calculate cryptographic hex hashes using the browser Web Crypto API. Generates SHA-256, SHA-384, and SHA-512 hashes instantly without external server APIs.",
+      "iconIdentifier": "Binary",
+      "categoryLabel": "encoding",
+      "faq": [],
+      "relatedTools": [
+        "timestamp-converter",
+        "jwt-decoder",
+        "base64-encoder"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Hash Generator – Calculate SHA-256, SHA-384 & SHA-512 Hashes",
+        "metaDescription": "Generate SHA-256, SHA-384, and SHA-512 cryptographic hashes locally using browser Web Crypto APIs.",
+        "canonicalUrl": "https://texttools.app/tools/hash-generator",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Hash Generator – Calculate SHA-256, SHA-384 & SHA-512 Hashes",
+        "ogDescription": "Generate SHA-256, SHA-384, and SHA-512 cryptographic hashes locally using browser Web Crypto APIs.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Hash Generator – Calculate SHA-256, SHA-384 & SHA-512 Hashes",
+        "twitterDescription": "Generate SHA-256, SHA-384, and SHA-512 cryptographic hashes locally using browser Web Crypto APIs.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Hash Generator online for fast, private text processing directly in your browser.",
+      "educationalContent": "Hash Generator processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-escape-unescape",
+      "slug": "escape-unescape",
+      "toolName": "Escape / Unescape String",
+      "shortDescription": "Escape strings for JSON or JavaScript code, or decode escaped strings.",
+      "longDescription": "Escape quotation marks, slashes, and control characters for JSON or JavaScript strings, or unescape escaped strings back to plain text.",
+      "iconIdentifier": "Code",
+      "categoryLabel": "developer",
+      "faq": [],
+      "relatedTools": [
+        "json-formatter",
+        "html-encoder",
+        "regex-tester"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Escape / Unescape String – JSON & JavaScript String Escaper",
+        "metaDescription": "Escape or unescape strings for JSON and JavaScript code safely online.",
+        "canonicalUrl": "https://texttools.app/tools/escape-unescape",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Escape / Unescape String – JSON & JavaScript String Escaper",
+        "ogDescription": "Escape or unescape strings for JSON and JavaScript code safely online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Escape / Unescape String – JSON & JavaScript String Escaper",
+        "twitterDescription": "Escape or unescape strings for JSON and JavaScript code safely online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Escape / Unescape String online for fast, private text processing directly in your browser.",
+      "educationalContent": "Escape / Unescape String processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-word-counter",
+      "slug": "word-counter",
+      "toolName": "Word Counter",
+      "shortDescription": "Count words, characters, sentences, paragraphs, and estimated reading time.",
+      "longDescription": "A fast, accurate online word counter tool. Calculates real-time word count, letter counts excluding spaces, lines, paragraph counts, and estimated reading duration.",
+      "iconIdentifier": "FileText",
+      "categoryLabel": "writing",
+      "faq": [],
+      "relatedTools": [
+        "character-counter",
+        "text-statistics",
+        "reading-time-calculator"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Word Counter – Free Online Word & Character Count Tool",
+        "metaDescription": "Count words, characters, sentences, paragraphs, and reading times instantly in your browser.",
+        "canonicalUrl": "https://texttools.app/tools/word-counter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Word Counter – Free Online Word & Character Count Tool",
+        "ogDescription": "Count words, characters, sentences, paragraphs, and reading times instantly in your browser.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Word Counter – Free Online Word & Character Count Tool",
+        "twitterDescription": "Count words, characters, sentences, paragraphs, and reading times instantly in your browser.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Word Counter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Word Counter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-character-counter",
+      "slug": "character-counter",
+      "toolName": "Character Counter",
+      "shortDescription": "Count characters, letters without spaces, UTF-8 byte sizes, and words.",
+      "longDescription": "Precise character counter and UTF-8 byte calculator. Accurately counts visible characters, surrogate pairs, emojis, and byte sizes.",
+      "iconIdentifier": "FileText",
+      "categoryLabel": "writing",
+      "faq": [],
+      "relatedTools": [
+        "word-counter",
+        "text-statistics",
+        "reading-time-calculator"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Character Counter – Free Online Char & UTF-8 Byte Counter",
+        "metaDescription": "Calculate character length, characters without spaces, UTF-8 byte size, and word count locally.",
+        "canonicalUrl": "https://texttools.app/tools/character-counter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Character Counter – Free Online Char & UTF-8 Byte Counter",
+        "ogDescription": "Calculate character length, characters without spaces, UTF-8 byte size, and word count locally.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Character Counter – Free Online Char & UTF-8 Byte Counter",
+        "twitterDescription": "Calculate character length, characters without spaces, UTF-8 byte size, and word count locally.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Character Counter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Character Counter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-text-statistics",
+      "slug": "text-statistics",
+      "toolName": "Text Statistics",
+      "shortDescription": "Complete text metrics dashboard including average word length and sentence lengths.",
+      "longDescription": "In-depth text analysis dashboard. Displays words, characters with/without spaces, UTF-8 bytes, line count, sentence count, paragraph count, and longest/shortest words.",
+      "iconIdentifier": "FileText",
+      "categoryLabel": "writing",
+      "faq": [],
+      "relatedTools": [
+        "word-counter",
+        "character-counter",
+        "reading-time-calculator"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Text Statistics – Complete Online Text Analysis Dashboard",
+        "metaDescription": "Analyze complete text metrics: word lengths, sentence lengths, paragraphs, and reading time.",
+        "canonicalUrl": "https://texttools.app/tools/text-statistics",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Text Statistics – Complete Online Text Analysis Dashboard",
+        "ogDescription": "Analyze complete text metrics: word lengths, sentence lengths, paragraphs, and reading time.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Text Statistics – Complete Online Text Analysis Dashboard",
+        "twitterDescription": "Analyze complete text metrics: word lengths, sentence lengths, paragraphs, and reading time.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Text Statistics online for fast, private text processing directly in your browser.",
+      "educationalContent": "Text Statistics processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-reading-time-calculator",
+      "slug": "reading-time-calculator",
+      "toolName": "Reading Time Calculator",
+      "shortDescription": "Estimate reading duration with customizable WPM speeds (100 WPM to 300 WPM).",
+      "longDescription": "Calculate exact reading time for articles, essays, and speeches with customizable WPM speed controls.",
+      "iconIdentifier": "Clock",
+      "categoryLabel": "writing",
+      "faq": [],
+      "relatedTools": [
+        "word-counter",
+        "character-counter",
+        "text-statistics"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Reading Time Calculator – Estimate Article & Speech Duration",
+        "metaDescription": "Calculate article and speech reading times with adjustable WPM settings.",
+        "canonicalUrl": "https://texttools.app/tools/reading-time-calculator",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Reading Time Calculator – Estimate Article & Speech Duration",
+        "ogDescription": "Calculate article and speech reading times with adjustable WPM settings.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Reading Time Calculator – Estimate Article & Speech Duration",
+        "twitterDescription": "Calculate article and speech reading times with adjustable WPM settings.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Reading Time Calculator online for fast, private text processing directly in your browser.",
+      "educationalContent": "Reading Time Calculator processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-uppercase-converter",
+      "slug": "uppercase-converter",
+      "toolName": "Uppercase Converter",
+      "shortDescription": "Convert all text characters to ALL CAPS UPPERCASE.",
+      "longDescription": "Transform text to UPPERCASE instantly. Preserves spacing, line breaks, punctuation, and Unicode script accents.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "lowercase-converter",
+        "title-case-converter",
+        "sentence-case-converter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Uppercase Converter – Convert Text to ALL CAPS Online",
+        "metaDescription": "Convert text to uppercase online. Fast, browser-based capital letter transformer.",
+        "canonicalUrl": "https://texttools.app/tools/uppercase-converter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Uppercase Converter – Convert Text to ALL CAPS Online",
+        "ogDescription": "Convert text to uppercase online. Fast, browser-based capital letter transformer.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Uppercase Converter – Convert Text to ALL CAPS Online",
+        "twitterDescription": "Convert text to uppercase online. Fast, browser-based capital letter transformer.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Uppercase Converter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Uppercase Converter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-lowercase-converter",
+      "slug": "lowercase-converter",
+      "toolName": "Lowercase Converter",
+      "shortDescription": "Convert text to all small lowercase letters.",
+      "longDescription": "Transform text to small lowercase letters. Preserves original paragraphs, line breaks, and special characters.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "uppercase-converter",
+        "title-case-converter",
+        "sentence-case-converter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Lowercase Converter – Convert Text to Small Letters Online",
+        "metaDescription": "Convert text to lowercase letters online instantly.",
+        "canonicalUrl": "https://texttools.app/tools/lowercase-converter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Lowercase Converter – Convert Text to Small Letters Online",
+        "ogDescription": "Convert text to lowercase letters online instantly.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Lowercase Converter – Convert Text to Small Letters Online",
+        "twitterDescription": "Convert text to lowercase letters online instantly.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Lowercase Converter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Lowercase Converter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-title-case-converter",
+      "slug": "title-case-converter",
+      "toolName": "Title Case Converter",
+      "shortDescription": "Capitalize Headings & Titles Intelligently.",
+      "longDescription": "Intelligent title casing utility for headlines, book titles, and email subject lines.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "uppercase-converter",
+        "lowercase-converter",
+        "sentence-case-converter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Title Case Converter – Capitalize Headlines & Titles Online",
+        "metaDescription": "Convert headlines and titles to Title Case with intelligent handling of minor words.",
+        "canonicalUrl": "https://texttools.app/tools/title-case-converter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Title Case Converter – Capitalize Headlines & Titles Online",
+        "ogDescription": "Convert headlines and titles to Title Case with intelligent handling of minor words.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Title Case Converter – Capitalize Headlines & Titles Online",
+        "twitterDescription": "Convert headlines and titles to Title Case with intelligent handling of minor words.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Title Case Converter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Title Case Converter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-sentence-case-converter",
+      "slug": "sentence-case-converter",
+      "toolName": "Sentence Case Converter",
+      "shortDescription": "Capitalize the first letter of each sentence automatically.",
+      "longDescription": "Format unformatted text into clean sentence case. Capitalizes sentence beginnings after periods and question marks.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "title-case-converter",
+        "uppercase-converter",
+        "lowercase-converter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Sentence Case Converter – Capitalize First Letter of Sentences",
+        "metaDescription": "Automatically capitalize the first letter of every sentence in your text.",
+        "canonicalUrl": "https://texttools.app/tools/sentence-case-converter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Sentence Case Converter – Capitalize First Letter of Sentences",
+        "ogDescription": "Automatically capitalize the first letter of every sentence in your text.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Sentence Case Converter – Capitalize First Letter of Sentences",
+        "twitterDescription": "Automatically capitalize the first letter of every sentence in your text.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Sentence Case Converter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Sentence Case Converter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-remove-extra-spaces",
+      "slug": "remove-extra-spaces",
+      "toolName": "Remove Extra Spaces",
+      "shortDescription": "Clean double spaces, repeated tabs, and trailing whitespace.",
+      "longDescription": "Clean messy text documents by collapsing multiple consecutive spaces and tabs into a single space.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "remove-empty-lines",
+        "remove-duplicate-lines",
+        "text-cleaner"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Remove Extra Spaces – Clean Double Spaces & Repeated Whitespace",
+        "metaDescription": "Clean extra spaces, collapse double spaces, and remove trailing whitespace online.",
+        "canonicalUrl": "https://texttools.app/tools/remove-extra-spaces",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Remove Extra Spaces – Clean Double Spaces & Repeated Whitespace",
+        "ogDescription": "Clean extra spaces, collapse double spaces, and remove trailing whitespace online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Remove Extra Spaces – Clean Double Spaces & Repeated Whitespace",
+        "twitterDescription": "Clean extra spaces, collapse double spaces, and remove trailing whitespace online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Remove Extra Spaces online for fast, private text processing directly in your browser.",
+      "educationalContent": "Remove Extra Spaces processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-remove-empty-lines",
+      "slug": "remove-empty-lines",
+      "toolName": "Remove Empty Lines",
+      "shortDescription": "Strip out blank lines and empty line breaks from documents.",
+      "longDescription": "Remove blank lines and whitespace-only lines from code files, lists, or text documents.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "remove-extra-spaces",
+        "remove-duplicate-lines",
+        "text-cleaner"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Remove Empty Lines – Strip Blank Lines & Extra Newlines",
+        "metaDescription": "Remove blank lines and empty line breaks from text files online.",
+        "canonicalUrl": "https://texttools.app/tools/remove-empty-lines",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Remove Empty Lines – Strip Blank Lines & Extra Newlines",
+        "ogDescription": "Remove blank lines and empty line breaks from text files online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Remove Empty Lines – Strip Blank Lines & Extra Newlines",
+        "twitterDescription": "Remove blank lines and empty line breaks from text files online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Remove Empty Lines online for fast, private text processing directly in your browser.",
+      "educationalContent": "Remove Empty Lines processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-remove-duplicate-lines",
+      "slug": "remove-duplicate-lines",
+      "toolName": "Remove Duplicate Lines",
+      "shortDescription": "Deduplicate lines from lists, data files, and logs.",
+      "longDescription": "Remove duplicate lines from text lists while preserving original line order.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "sort-lines",
+        "remove-empty-lines",
+        "text-cleaner"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Remove Duplicate Lines – Deduplicate Text & Lists Online",
+        "metaDescription": "Deduplicate lines in text lists instantly while preserving original order.",
+        "canonicalUrl": "https://texttools.app/tools/remove-duplicate-lines",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Remove Duplicate Lines – Deduplicate Text & Lists Online",
+        "ogDescription": "Deduplicate lines in text lists instantly while preserving original order.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Remove Duplicate Lines – Deduplicate Text & Lists Online",
+        "twitterDescription": "Deduplicate lines in text lists instantly while preserving original order.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Remove Duplicate Lines online for fast, private text processing directly in your browser.",
+      "educationalContent": "Remove Duplicate Lines processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-sort-lines",
+      "slug": "sort-lines",
+      "toolName": "Sort Lines",
+      "shortDescription": "Sort text lines alphabetically (A-Z, Z-A) or numerically.",
+      "longDescription": "Sort lists and text files alphabetically ascending, descending, or numerically.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "remove-duplicate-lines",
+        "reverse-text",
+        "text-cleaner"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Sort Lines – Alphabetical & Numeric List Sorting Tool",
+        "metaDescription": "Sort lines alphabetically or numerically online.",
+        "canonicalUrl": "https://texttools.app/tools/sort-lines",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Sort Lines – Alphabetical & Numeric List Sorting Tool",
+        "ogDescription": "Sort lines alphabetically or numerically online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Sort Lines – Alphabetical & Numeric List Sorting Tool",
+        "twitterDescription": "Sort lines alphabetically or numerically online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Sort Lines online for fast, private text processing directly in your browser.",
+      "educationalContent": "Sort Lines processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-reverse-text",
+      "slug": "reverse-text",
+      "toolName": "Reverse Text",
+      "shortDescription": "Reverse entire text, individual lines, or word order.",
+      "longDescription": "Reverse text characters, flip lines, or reverse word order using Unicode grapheme segmenters.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "sort-lines",
+        "uppercase-converter",
+        "text-cleaner"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Reverse Text – Reverse Characters, Lines, or Word Order Online",
+        "metaDescription": "Reverse text strings or line order safely without breaking emojis.",
+        "canonicalUrl": "https://texttools.app/tools/reverse-text",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Reverse Text – Reverse Characters, Lines, or Word Order Online",
+        "ogDescription": "Reverse text strings or line order safely without breaking emojis.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Reverse Text – Reverse Characters, Lines, or Word Order Online",
+        "twitterDescription": "Reverse text strings or line order safely without breaking emojis.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Reverse Text online for fast, private text processing directly in your browser.",
+      "educationalContent": "Reverse Text processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-text-cleaner",
+      "slug": "text-cleaner",
+      "toolName": "Text Cleaner",
+      "shortDescription": "All-in-one text cleaning tool for whitespace, empty lines, and duplicates.",
+      "longDescription": "Configurable text cleanup workstation. Combine trim, extra space removal, and blank line stripping.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "remove-extra-spaces",
+        "remove-empty-lines",
+        "remove-duplicate-lines"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Text Cleaner – All-in-One Text Sanitizer & Cleanup Tool",
+        "metaDescription": "Clean text, remove extra spaces, and strip empty lines in one click.",
+        "canonicalUrl": "https://texttools.app/tools/text-cleaner",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Text Cleaner – All-in-One Text Sanitizer & Cleanup Tool",
+        "ogDescription": "Clean text, remove extra spaces, and strip empty lines in one click.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Text Cleaner – All-in-One Text Sanitizer & Cleanup Tool",
+        "twitterDescription": "Clean text, remove extra spaces, and strip empty lines in one click.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Text Cleaner online for fast, private text processing directly in your browser.",
+      "educationalContent": "Text Cleaner processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-find-and-replace",
+      "slug": "find-and-replace",
+      "toolName": "Find & Replace",
+      "shortDescription": "Search and replace text strings with case sensitivity and whole word options.",
+      "longDescription": "Find and replace words or phrases in large documents with match counters.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "text-cleaner",
+        "text-compare",
+        "text-splitter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Find & Replace – Online Search & Replace Text Utility",
+        "metaDescription": "Find and replace text strings instantly in your browser.",
+        "canonicalUrl": "https://texttools.app/tools/find-and-replace",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Find & Replace – Online Search & Replace Text Utility",
+        "ogDescription": "Find and replace text strings instantly in your browser.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Find & Replace – Online Search & Replace Text Utility",
+        "twitterDescription": "Find and replace text strings instantly in your browser.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Find & Replace online for fast, private text processing directly in your browser.",
+      "educationalContent": "Find & Replace processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-text-compare",
+      "slug": "text-compare",
+      "toolName": "Text Compare",
+      "shortDescription": "Compare two text blocks side-by-side to highlight added and removed lines.",
+      "longDescription": "Side-by-side text comparison tool. Compares Text A and Text B line-by-line to identify additions and deletions.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "find-and-replace",
+        "text-merger",
+        "text-cleaner"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Text Compare – Free Online Side-by-Side Text Diff Tool",
+        "metaDescription": "Compare two text blocks side-by-side to highlight added and removed lines.",
+        "canonicalUrl": "https://texttools.app/tools/text-compare",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Text Compare – Free Online Side-by-Side Text Diff Tool",
+        "ogDescription": "Compare two text blocks side-by-side to highlight added and removed lines.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Text Compare – Free Online Side-by-Side Text Diff Tool",
+        "twitterDescription": "Compare two text blocks side-by-side to highlight added and removed lines.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Text Compare online for fast, private text processing directly in your browser.",
+      "educationalContent": "Text Compare processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-text-splitter",
+      "slug": "text-splitter",
+      "toolName": "Text Splitter",
+      "shortDescription": "Split large text documents into smaller chunks by character, word, or line counts.",
+      "longDescription": "Divide large documents into manageable chunks by character limits, word limits, or line counts.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "text-merger",
+        "word-counter",
+        "text-cleaner"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Text Splitter – Split Text by Characters, Words, or Lines",
+        "metaDescription": "Split large text into smaller parts by character count, word count, or line count.",
+        "canonicalUrl": "https://texttools.app/tools/text-splitter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Text Splitter – Split Text by Characters, Words, or Lines",
+        "ogDescription": "Split large text into smaller parts by character count, word count, or line count.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Text Splitter – Split Text by Characters, Words, or Lines",
+        "twitterDescription": "Split large text into smaller parts by character count, word count, or line count.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Text Splitter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Text Splitter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-text-merger",
+      "slug": "text-merger",
+      "toolName": "Text Merger",
+      "shortDescription": "Combine multiple text blocks or files into a single unified output.",
+      "longDescription": "Merge multiple text sections or files into a single continuous document with customizable separators.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "text-splitter",
+        "sort-lines",
+        "remove-duplicate-lines"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Text Merger – Combine Multiple Text Blocks & Files Online",
+        "metaDescription": "Combine multiple text blocks or files into a single file with custom separators.",
+        "canonicalUrl": "https://texttools.app/tools/text-merger",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Text Merger – Combine Multiple Text Blocks & Files Online",
+        "ogDescription": "Combine multiple text blocks or files into a single file with custom separators.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Text Merger – Combine Multiple Text Blocks & Files Online",
+        "twitterDescription": "Combine multiple text blocks or files into a single file with custom separators.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Text Merger online for fast, private text processing directly in your browser.",
+      "educationalContent": "Text Merger processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-lorem-ipsum-generator",
+      "slug": "lorem-ipsum-generator",
+      "toolName": "Lorem Ipsum Generator",
+      "shortDescription": "Generate custom placeholder text by paragraphs, sentences, or word counts.",
+      "longDescription": "Generate Latin Lorem Ipsum dummy placeholder text for website mockups and print design.",
+      "iconIdentifier": "Sparkles",
+      "categoryLabel": "generators",
+      "faq": [],
+      "relatedTools": [
+        "random-text-generator",
+        "word-counter",
+        "text-statistics"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Lorem Ipsum Generator – Generate Custom Placeholder Text",
+        "metaDescription": "Generate Lorem Ipsum dummy text by paragraphs, sentences, or words.",
+        "canonicalUrl": "https://texttools.app/tools/lorem-ipsum-generator",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Lorem Ipsum Generator – Generate Custom Placeholder Text",
+        "ogDescription": "Generate Lorem Ipsum dummy text by paragraphs, sentences, or words.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Lorem Ipsum Generator – Generate Custom Placeholder Text",
+        "twitterDescription": "Generate Lorem Ipsum dummy text by paragraphs, sentences, or words.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Lorem Ipsum Generator online for fast, private text processing directly in your browser.",
+      "educationalContent": "Lorem Ipsum Generator processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-random-text-generator",
+      "slug": "random-text-generator",
+      "toolName": "Random Text Generator",
+      "shortDescription": "Generate randomized readable dummy text with customizable numbers and punctuation.",
+      "longDescription": "Generate readable random text for software testing, mock data population, and UX design.",
+      "iconIdentifier": "Sparkles",
+      "categoryLabel": "generators",
+      "faq": [],
+      "relatedTools": [
+        "lorem-ipsum-generator",
+        "word-counter",
+        "text-statistics"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Random Text Generator – Generate Custom Dummy Text",
+        "metaDescription": "Generate randomized dummy text paragraphs, sentences, and words.",
+        "canonicalUrl": "https://texttools.app/tools/random-text-generator",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Random Text Generator – Generate Custom Dummy Text",
+        "ogDescription": "Generate randomized dummy text paragraphs, sentences, and words.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Random Text Generator – Generate Custom Dummy Text",
+        "twitterDescription": "Generate randomized dummy text paragraphs, sentences, and words.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Random Text Generator online for fast, private text processing directly in your browser.",
+      "educationalContent": "Random Text Generator processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-keyword-counter",
+      "slug": "keyword-counter",
+      "toolName": "Keyword Counter",
+      "shortDescription": "Count exact keyword matches and frequency percentages in your text.",
+      "longDescription": "Calculate exact keyword frequencies, occurrence counts, and keyword density percentages for targeted terms locally in your browser.",
+      "iconIdentifier": "Search",
+      "categoryLabel": "seo",
+      "faq": [
+        {
+          "question": "Does Keyword Counter support multiple keywords at once?",
+          "answer": "Yes! You can enter multiple keywords separated by commas or line breaks to check all of them simultaneously."
+        }
+      ],
+      "relatedTools": [
+        "keyword-density-checker",
+        "word-frequency-counter",
+        "keyword-extractor"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Keyword Counter – Calculate Exact Keyword Occurrences & Frequency",
+        "metaDescription": "Count exact target keyword occurrences and density percentages in text online.",
+        "canonicalUrl": "https://texttools.app/tools/keyword-counter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Keyword Counter – Calculate Exact Keyword Occurrences & Frequency",
+        "ogDescription": "Count exact target keyword occurrences and density percentages in text online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Keyword Counter – Calculate Exact Keyword Occurrences & Frequency",
+        "twitterDescription": "Count exact target keyword occurrences and density percentages in text online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Keyword Counter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Keyword Counter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-keyword-density-checker",
+      "slug": "keyword-density-checker",
+      "toolName": "Keyword Density Checker",
+      "shortDescription": "Analyze word frequency density percentages using heuristic benchmarks.",
+      "longDescription": "Analyze document word density percentages. Provides high-density warnings based on heuristic statistical benchmarks to review repetitive terms.",
+      "iconIdentifier": "Search",
+      "categoryLabel": "seo",
+      "faq": [
+        {
+          "question": "Is keyword density a guaranteed ranking factor for Google?",
+          "answer": "No. Keyword density is a statistical textual measurement. Modern search engines evaluate semantics, intent, and user experience rather than enforcing a specific fixed keyword percentage."
+        }
+      ],
+      "relatedTools": [
+        "keyword-counter",
+        "word-frequency-counter",
+        "keyword-extractor"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Keyword Density Checker – Analyze Word Density & Frequency Metrics",
+        "metaDescription": "Analyze text keyword density percentages online with heuristic statistical density benchmarks.",
+        "canonicalUrl": "https://texttools.app/tools/keyword-density-checker",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Keyword Density Checker – Analyze Word Density & Frequency Metrics",
+        "ogDescription": "Analyze text keyword density percentages online with heuristic statistical density benchmarks.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Keyword Density Checker – Analyze Word Density & Frequency Metrics",
+        "twitterDescription": "Analyze text keyword density percentages online with heuristic statistical density benchmarks.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Keyword Density Checker online for fast, private text processing directly in your browser.",
+      "educationalContent": "Keyword Density Checker processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-word-frequency-counter",
+      "slug": "word-frequency-counter",
+      "toolName": "Word Frequency Counter",
+      "shortDescription": "Count occurrences of all words with stop word filtering and length controls.",
+      "longDescription": "Generate a complete word frequency table. Filter out common English and Persian stop words, exclude numbers, and set minimum word length thresholds.",
+      "iconIdentifier": "Search",
+      "categoryLabel": "seo",
+      "faq": [],
+      "relatedTools": [
+        "keyword-density-checker",
+        "keyword-counter",
+        "keyword-extractor"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Word Frequency Counter – Count Word Occurrences with Stop Word Filter",
+        "metaDescription": "Generate word frequency tables online. Filter stop words, numbers, and set word length controls.",
+        "canonicalUrl": "https://texttools.app/tools/word-frequency-counter",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Word Frequency Counter – Count Word Occurrences with Stop Word Filter",
+        "ogDescription": "Generate word frequency tables online. Filter stop words, numbers, and set word length controls.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Word Frequency Counter – Count Word Occurrences with Stop Word Filter",
+        "twitterDescription": "Generate word frequency tables online. Filter stop words, numbers, and set word length controls.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Word Frequency Counter online for fast, private text processing directly in your browser.",
+      "educationalContent": "Word Frequency Counter processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-slug-generator",
+      "slug": "slug-generator",
+      "toolName": "URL Slug Generator",
+      "shortDescription": "Convert titles into clean, SEO-friendly URL slugs.",
+      "longDescription": "Transform article titles and headlines into sanitized, URL-friendly slugs. Includes options for character limits and Unicode transliteration.",
+      "iconIdentifier": "Search",
+      "categoryLabel": "seo",
+      "faq": [],
+      "relatedTools": [
+        "meta-title-checker",
+        "meta-description-checker",
+        "heading-analyzer"
+      ],
+      "seoMetadata": {
+        "seoTitle": "URL Slug Generator – Convert Titles to SEO-Friendly URL Slugs",
+        "metaDescription": "Convert article titles and text into clean, sanitized, lowercased URL slugs online.",
+        "canonicalUrl": "https://texttools.app/tools/slug-generator",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "URL Slug Generator – Convert Titles to SEO-Friendly URL Slugs",
+        "ogDescription": "Convert article titles and text into clean, sanitized, lowercased URL slugs online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "URL Slug Generator – Convert Titles to SEO-Friendly URL Slugs",
+        "twitterDescription": "Convert article titles and text into clean, sanitized, lowercased URL slugs online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use URL Slug Generator online for fast, private text processing directly in your browser.",
+      "educationalContent": "URL Slug Generator processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-text-readability-calculator",
+      "slug": "text-readability-calculator",
+      "toolName": "Text Readability Calculator",
+      "shortDescription": "Calculate Flesch Reading Ease and Flesch-Kincaid Grade Level scores.",
+      "longDescription": "Evaluate document readability using Flesch Reading Ease and Flesch-Kincaid Grade Level metrics with total syllable and sentence breakdowns.",
+      "iconIdentifier": "Search",
+      "categoryLabel": "seo",
+      "faq": [],
+      "relatedTools": [
+        "word-counter",
+        "text-statistics",
+        "heading-analyzer"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Text Readability Calculator – Check Flesch Reading Ease & Grade Level",
+        "metaDescription": "Calculate Flesch Reading Ease and Flesch-Kincaid Grade Level readability scores for articles online.",
+        "canonicalUrl": "https://texttools.app/tools/text-readability-calculator",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Text Readability Calculator – Check Flesch Reading Ease & Grade Level",
+        "ogDescription": "Calculate Flesch Reading Ease and Flesch-Kincaid Grade Level readability scores for articles online.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Text Readability Calculator – Check Flesch Reading Ease & Grade Level",
+        "twitterDescription": "Calculate Flesch Reading Ease and Flesch-Kincaid Grade Level readability scores for articles online.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Text Readability Calculator online for fast, private text processing directly in your browser.",
+      "educationalContent": "Text Readability Calculator processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-meta-title-checker",
+      "slug": "meta-title-checker",
+      "toolName": "Meta Title Length Checker",
+      "shortDescription": "Check meta title pixel width and character counts against snippet preview guidelines.",
+      "longDescription": "Check HTML page meta title lengths against desktop SERP pixel width guidelines (~580px / ~60 characters). Includes live search result snippet preview.",
+      "iconIdentifier": "Search",
+      "categoryLabel": "seo",
+      "faq": [
+        {
+          "question": "Does Google enforce a strict 60 character limit for titles?",
+          "answer": "No. Search engines render titles based on display pixel width (~580px desktop guideline) rather than character counts, and may dynamically adjust or rewrite title tags depending on user search queries."
+        }
+      ],
+      "relatedTools": [
+        "meta-description-checker",
+        "slug-generator",
+        "heading-analyzer"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Meta Title Length Checker – Test SERP Pixel Width & Title Guidelines",
+        "metaDescription": "Check meta title lengths and pixel widths against search result snippet guidelines with live previews.",
+        "canonicalUrl": "https://texttools.app/tools/meta-title-checker",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Meta Title Length Checker – Test SERP Pixel Width & Title Guidelines",
+        "ogDescription": "Check meta title lengths and pixel widths against search result snippet guidelines with live previews.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Meta Title Length Checker – Test SERP Pixel Width & Title Guidelines",
+        "twitterDescription": "Check meta title lengths and pixel widths against search result snippet guidelines with live previews.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Meta Title Length Checker online for fast, private text processing directly in your browser.",
+      "educationalContent": "Meta Title Length Checker processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-meta-description-checker",
+      "slug": "meta-description-checker",
+      "toolName": "Meta Description Length Checker",
+      "shortDescription": "Inspect meta description pixel width and character counts against snippet guidelines.",
+      "longDescription": "Inspect meta description snippets against search result display guidelines (~990px / ~160 characters) with live search result snippet previews.",
+      "iconIdentifier": "Search",
+      "categoryLabel": "seo",
+      "faq": [
+        {
+          "question": "Will search engines always display my exact meta description?",
+          "answer": "Search engines frequently generate dynamic snippets from page content when they believe it better matches the user query. The ~160 character / ~990px limit serves as an approximate guideline for snippet display."
+        }
+      ],
+      "relatedTools": [
+        "meta-title-checker",
+        "slug-generator",
+        "keyword-counter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Meta Description Length Checker – Inspect SERP Snippet Preview Guidelines",
+        "metaDescription": "Inspect meta description lengths against search result snippet display guidelines with live SERP preview.",
+        "canonicalUrl": "https://texttools.app/tools/meta-description-checker",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Meta Description Length Checker – Inspect SERP Snippet Preview Guidelines",
+        "ogDescription": "Inspect meta description lengths against search result snippet display guidelines with live SERP preview.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Meta Description Length Checker – Inspect SERP Snippet Preview Guidelines",
+        "twitterDescription": "Inspect meta description lengths against search result snippet display guidelines with live SERP preview.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Meta Description Length Checker online for fast, private text processing directly in your browser.",
+      "educationalContent": "Meta Description Length Checker processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-heading-analyzer",
+      "slug": "heading-analyzer",
+      "toolName": "Headline Analyzer & Heading Inspector",
+      "shortDescription": "Analyze H1-H6 document hierarchy, detect missing H1s, and check skipped levels.",
+      "longDescription": "Analyze HTML or Markdown heading structures (H1 through H6). Detect missing H1 tags, duplicate H1s, skipped heading levels, and empty headings.",
+      "iconIdentifier": "Search",
+      "categoryLabel": "seo",
+      "faq": [],
+      "relatedTools": [
+        "meta-title-checker",
+        "text-readability-calculator",
+        "slug-generator"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Headline Analyzer & Heading Inspector – Validate H1-H6 Document Structure",
+        "metaDescription": "Inspect HTML and Markdown heading hierarchies online. Locate missing H1 tags and skipped heading levels.",
+        "canonicalUrl": "https://texttools.app/tools/heading-analyzer",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Headline Analyzer & Heading Inspector – Validate H1-H6 Document Structure",
+        "ogDescription": "Inspect HTML and Markdown heading hierarchies online. Locate missing H1 tags and skipped heading levels.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Headline Analyzer & Heading Inspector – Validate H1-H6 Document Structure",
+        "twitterDescription": "Inspect HTML and Markdown heading hierarchies online. Locate missing H1 tags and skipped heading levels.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Headline Analyzer & Heading Inspector online for fast, private text processing directly in your browser.",
+      "educationalContent": "Headline Analyzer & Heading Inspector processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-keyword-extractor",
+      "slug": "keyword-extractor",
+      "toolName": "Keyword Extractor",
+      "shortDescription": "Extract top single keywords and two-word phrases (bigrams) from content.",
+      "longDescription": "Extract key topics, single keywords, and two-word phrases (bigrams) from articles and documents with frequency thresholds.",
+      "iconIdentifier": "Search",
+      "categoryLabel": "seo",
+      "faq": [],
+      "relatedTools": [
+        "keyword-counter",
+        "keyword-density-checker",
+        "word-frequency-counter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Keyword Extractor – Extract Key Topics & 2-Word Phrases from Content",
+        "metaDescription": "Extract top keywords and 2-word phrases from articles online locally without external APIs.",
+        "canonicalUrl": "https://texttools.app/tools/keyword-extractor",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Keyword Extractor – Extract Key Topics & 2-Word Phrases from Content",
+        "ogDescription": "Extract top keywords and 2-word phrases from articles online locally without external APIs.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Keyword Extractor – Extract Key Topics & 2-Word Phrases from Content",
+        "twitterDescription": "Extract top keywords and 2-word phrases from articles online locally without external APIs.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Keyword Extractor online for fast, private text processing directly in your browser.",
+      "educationalContent": "Keyword Extractor processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "tool-content-demo-text-transformer",
+      "slug": "demo-text-transformer",
+      "toolName": "Demo Text Transformer",
+      "shortDescription": "Foundation tool demonstrating workspace, statistics, clipboard, and Web Worker processing.",
+      "longDescription": "This foundation tool validates the core Text Tools engine.",
+      "iconIdentifier": "Wand2",
+      "categoryLabel": "text",
+      "faq": [],
+      "relatedTools": [
+        "word-counter",
+        "uppercase-converter",
+        "json-formatter"
+      ],
+      "seoMetadata": {
+        "seoTitle": "Demo Text Transformer – Client-Side Text Utility | Text Tools",
+        "metaDescription": "Test the Text Tools browser workspace with case conversion and live statistics.",
+        "canonicalUrl": "https://texttools.app/tools/demo-text-transformer",
+        "robotsIndex": true,
+        "robotsFollow": true,
+        "ogTitle": "Demo Text Transformer – Client-Side Text Utility | Text Tools",
+        "ogDescription": "Test the Text Tools browser workspace with case conversion and live statistics.",
+        "ogImage": "https://texttools.app/og-image.png",
+        "twitterTitle": "Demo Text Transformer – Client-Side Text Utility | Text Tools",
+        "twitterDescription": "Test the Text Tools browser workspace with case conversion and live statistics.",
+        "twitterImage": "https://texttools.app/og-image.png",
+        "schemaJson": ""
+      },
+      "introContent": "Use Demo Text Transformer online for fast, private text processing directly in your browser.",
+      "educationalContent": "Demo Text Transformer processes all inputs 100% client-side without sending text to external servers.",
+      "isPublished": true,
+      "createdAt": "2026-09-26T09:36:49.906Z",
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    }
+  ],
+  "navigation": [
+    {
+      "id": "nav-header-menu",
+      "name": "Main Header Menu",
+      "location": "header",
+      "items": [
+        {
+          "id": "item-1",
+          "label": "All Tools",
+          "url": "/text-tools",
+          "order": 1,
+          "isActive": true,
+          "target": "_self"
+        },
+        {
+          "id": "item-2",
+          "label": "Developer",
+          "url": "/developer-tools",
+          "order": 2,
+          "isActive": true,
+          "target": "_self"
+        },
+        {
+          "id": "item-3",
+          "label": "SEO",
+          "url": "/seo-tools",
+          "order": 3,
+          "isActive": true,
+          "target": "_self"
+        },
+        {
+          "id": "item-4",
+          "label": "About",
+          "url": "/about",
+          "order": 4,
+          "isActive": true,
+          "target": "_self"
+        }
+      ],
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    },
+    {
+      "id": "nav-footer-menu",
+      "name": "Footer Links Menu",
+      "location": "footer",
+      "items": [
+        {
+          "id": "fitem-1",
+          "label": "All Tools",
+          "url": "/text-tools",
+          "order": 1,
+          "isActive": true,
+          "target": "_self"
+        },
+        {
+          "id": "fitem-2",
+          "label": "Privacy Policy",
+          "url": "/privacy",
+          "order": 2,
+          "isActive": true,
+          "target": "_self"
+        },
+        {
+          "id": "fitem-3",
+          "label": "Terms of Service",
+          "url": "/terms",
+          "order": 3,
+          "isActive": true,
+          "target": "_self"
+        },
+        {
+          "id": "fitem-4",
+          "label": "About",
+          "url": "/about",
+          "order": 4,
+          "isActive": true,
+          "target": "_self"
+        }
+      ],
+      "updatedAt": "2026-09-26T09:36:49.906Z"
+    }
+  ],
+  "settings": {
+    "id": "global-site-settings",
+    "siteName": "Text Tools Ultimate CMS",
+    "siteDescription": "Online Text Utilities & Content Platform",
+    "logoUrl": "/favicon.ico",
+    "faviconUrl": "/favicon.ico",
+    "defaultSeoTitle": "Free Online Text Tools & Developer Utilities",
+    "defaultMetaDescription": "Fast, private, 100% client-side text tools for writers, editors, engineers, and digital marketers.",
+    "defaultOgImage": "https://texttools.app/og-image.png",
+    "footerText": "© 2026 Text Tools. All rights reserved. 100% Client-Side Privacy Guaranteed.",
+    "socialLinks": [
+      {
+        "platform": "GitHub",
+        "url": "https://github.com"
+      },
+      {
+        "platform": "Twitter",
+        "url": "https://twitter.com"
+      }
+    ],
+    "updatedAt": "2026-09-26T09:37:44.535Z"
+  }
+}

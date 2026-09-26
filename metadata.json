@@ -1,0 +1,6 @@
+{
+  "name": "Text Tools – Free Online Text Utilities & Analyzer",
+  "description": "Fast, privacy-friendly online text utility platform. Analyze, clean, convert, format, and process text locally in your browser.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

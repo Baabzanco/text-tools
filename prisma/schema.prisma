@@ -1,0 +1,278 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["driverAdapters"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum Role {
+  SUPER_ADMIN
+  ADMIN
+  EDITOR
+}
+
+enum PageStatus {
+  DRAFT
+  PUBLISHED
+  ARCHIVED
+}
+
+model AdminUser {
+  id           String       @id @default(uuid())
+  email        String       @unique
+  passwordHash String
+  name         String
+  role         Role         @default(ADMIN)
+  isActive     Boolean      @default(true)
+  createdAt    DateTime     @default(now())
+  updatedAt    DateTime     @updatedAt
+  uploadedMedia MediaAsset[]
+  authoredPosts BlogPost[]
+
+  @@index([email])
+}
+
+model Page {
+  id                 String        @id @default(uuid())
+  slug               String        @unique
+  title              String
+  status             PageStatus    @default(DRAFT)
+  publishedVersionId String?
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+  publishedAt        DateTime?
+  createdBy          String
+  updatedBy          String
+  versions           PageVersion[]
+
+  @@index([slug])
+  @@index([status])
+}
+
+model PageVersion {
+  id            String   @id @default(uuid())
+  pageId        String
+  page          Page     @relation(fields: [pageId], references: [id], onDelete: Cascade)
+  versionNumber Int
+  content       Json     // Structured block sections
+  seoMetadata   Json     // Reusable SEO structure
+  changeSummary String?
+  createdBy     String
+  createdAt     DateTime @default(now())
+
+  @@index([pageId])
+  @@index([pageId, versionNumber])
+}
+
+model ToolContent {
+  id                 String   @id @default(uuid())
+  slug               String   @unique
+  toolName           String
+  shortDescription   String
+  longDescription    String
+  iconIdentifier     String   @default("Code")
+  categoryLabel      String   @default("Text")
+  faq                Json     // Array of { question, answer }
+  relatedTools       Json     // Array of slugs
+  seoMetadata        Json     // Reusable SEO metadata
+  introContent       String?
+  educationalContent String?
+  isPublished        Boolean  @default(true)
+  createdAt          DateTime @default(now())
+  updatedAt          DateTime @updatedAt
+
+  @@index([slug])
+  @@index([isPublished])
+}
+
+model NavigationMenu {
+  id        String           @id @default(uuid())
+  name      String           @unique
+  location  String           @unique // header, footer
+  items     NavigationItem[]
+  createdAt DateTime         @default(now())
+  updatedAt DateTime         @updatedAt
+
+  @@index([location])
+}
+
+model NavigationItem {
+  id        String         @id @default(uuid())
+  menuId    String
+  menu      NavigationMenu @relation(fields: [menuId], references: [id], onDelete: Cascade)
+  label     String
+  url       String
+  order     Int            @default(0)
+  isActive  Boolean        @default(true)
+  target    String         @default("_self")
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+
+  @@index([menuId])
+}
+
+model SiteSettings {
+  id                     String   @id @default(uuid())
+  siteName               String   @default("Text Tools")
+  siteDescription        String   @default("Online Text Utilities & Content Platform")
+  logoUrl                String?
+  faviconUrl             String?
+  defaultSeoTitle        String   @default("Free Online Text Tools & Developer Utilities")
+  defaultMetaDescription String   @default("Fast, private, 100% client-side text tools for writers, editors, engineers, and digital marketers.")
+  defaultOgImage         String?
+  footerText             String   @default("© 2026 Text Tools. All rights reserved. 100% Client-Side Privacy Guaranteed.")
+  socialLinks            Json     @default("[]")
+  updatedAt              DateTime @updatedAt
+}
+
+enum BlogPostStatus {
+  DRAFT
+  PUBLISHED
+  SCHEDULED
+  ARCHIVED
+}
+
+model BlogPost {
+  id                   String             @id @default(uuid())
+  slug                 String             @unique
+  title                String
+  excerpt              String?
+  content              Json               // Real structured Tiptap JSON document
+  status               BlogPostStatus     @default(DRAFT)
+  scheduledAt          DateTime?
+  publishedAt          DateTime?
+  createdAt            DateTime           @default(now())
+  updatedAt            DateTime           @updatedAt
+  createdBy            String             @default("Admin")
+  updatedBy            String             @default("Admin")
+  
+  authorId             String?
+  author               AdminUser?         @relation(fields: [authorId], references: [id], onDelete: SetNull)
+
+  featuredImageId      String?
+  featuredImage        MediaAsset?        @relation("BlogPostFeaturedImage", fields: [featuredImageId], references: [id], onDelete: SetNull)
+
+  categoryId           String?
+  category             BlogCategory?      @relation(fields: [categoryId], references: [id], onDelete: SetNull)
+
+  tags                 BlogPostTag[]
+  revisions            BlogPostRevision[]
+
+  publishedVersionId   String?
+  publishedContent     Json?              // Snapshot for published version stability
+  publishedTitle       String?
+  publishedExcerpt     String?
+  publishedSeoMetadata Json?
+
+  seoMetadata          Json?              // Full SEO metadata structure
+
+  @@index([slug])
+  @@index([status])
+  @@index([categoryId])
+  @@index([authorId])
+  @@index([publishedAt])
+  @@index([createdAt])
+}
+
+model BlogPostRevision {
+  id            String         @id @default(uuid())
+  postId        String
+  post          BlogPost       @relation(fields: [postId], references: [id], onDelete: Cascade)
+  versionNumber Int
+  title         String
+  content       Json           // Real structured Tiptap JSON document
+  excerpt       String?
+  seoMetadata   Json?
+  changeSummary String?
+  authorId      String?
+  createdBy     String
+  createdAt     DateTime       @default(now())
+
+  @@index([postId])
+  @@index([postId, versionNumber])
+}
+
+model BlogCategory {
+  id              String         @id @default(uuid())
+  name            String
+  slug            String         @unique
+  description     String?
+  parentId        String?
+  parent          BlogCategory?  @relation("CategoryHierarchy", fields: [parentId], references: [id], onDelete: Restrict)
+  children        BlogCategory[] @relation("CategoryHierarchy")
+  
+  featuredImageId String?
+  featuredImage   MediaAsset?    @relation("BlogCategoryFeaturedImage", fields: [featuredImageId], references: [id], onDelete: SetNull)
+
+  seoMetadata     Json?          // Full SEO metadata
+  posts           BlogPost[]
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  @@index([slug])
+  @@index([parentId])
+}
+
+model BlogTag {
+  id          String        @id @default(uuid())
+  name        String
+  slug        String        @unique
+  description String?
+  seoMetadata Json?         // Full SEO metadata
+  posts       BlogPostTag[]
+  createdAt   DateTime      @default(now())
+  updatedAt   DateTime      @updatedAt
+
+  @@index([slug])
+}
+
+model BlogPostTag {
+  postId String
+  post   BlogPost @relation(fields: [postId], references: [id], onDelete: Cascade)
+  tagId  String
+  tag    BlogTag  @relation(fields: [tagId], references: [id], onDelete: Cascade)
+
+  @@id([postId, tagId])
+  @@index([postId])
+  @@index([tagId])
+}
+
+model Redirect {
+  id         String   @id @default(uuid())
+  fromPath   String   @unique
+  toPath     String
+  statusCode Int      @default(301)
+  createdAt  DateTime @default(now())
+
+  @@index([fromPath])
+}
+
+model MediaAsset {
+  id               String         @id @default(uuid())
+  originalFilename String
+  filename         String         @unique
+  mimeType         String
+  fileExtension    String
+  size             Int
+  storagePath      String
+  publicUrl        String
+  width            Int?
+  height           Int?
+  altText          String?
+  title            String?
+  caption          String?
+  description      String?
+  uploadedBy       String?
+  uploader         AdminUser?     @relation(fields: [uploadedBy], references: [id], onDelete: SetNull)
+  createdAt        DateTime       @default(now())
+  updatedAt        DateTime       @updatedAt
+  blogPosts        BlogPost[]     @relation("BlogPostFeaturedImage")
+  blogCategories   BlogCategory[] @relation("BlogCategoryFeaturedImage")
+
+  @@index([mimeType])
+  @@index([createdAt])
+  @@index([filename])
+}
